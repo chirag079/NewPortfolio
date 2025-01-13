@@ -22,7 +22,7 @@ const RecentProjects = () => {
               title="/ui.aceternity.com"
               href="https://twitter.com/mannupaaji"
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[85vw] overflow-hidden h-[18vh] lg:h-[26vh] mb-10 rounded-lg">
+              <div className="relative flex items-center justify-center sm:w-96 w-[85vw] overflow-hidden h-[26vh] mb-10 rounded-lg">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -32,7 +32,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute top-0 h-full w-full"
+                  className="z-10 absolute top-0 object-cover"
                 />
               </div>
 
